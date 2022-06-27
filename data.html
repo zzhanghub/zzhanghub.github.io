@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Zhao Zhang</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .vspace-top-left {
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+
+        .vspace-top {
+            margin-top: 30px;
+        }
+
+        .paper-authors {
+            font-style: italic;
+
+        }
+
+        .paper-pub {
+            font-weight: bold;
+            color: gray;
+            font-style: italic
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./publications.html">Publications
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="./data.html">Codes/Datasets
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Useful links
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container">
+        <!-- Page Heading/Breadcrumbs -->
+        <h1 class="mt-4 mb-3">Codes/Datasets
+            <!-- <small>Codes/Datasets</small> -->
+        </h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Codes/Datasets</li>
+        </ol>
+
+        <!-- Intro Content -->
+    </section>
+
+    <section class="container">
+        <!-- Intro Content -->
+        <div class="row">
+            <div class="col-lg-6">
+                <a href="./coca.html" target="_black"><img class="img-fluid rounded mb-4" src="./datasets/CoCA/CoCA_show.png" alt=""></a>
+            </div>
+            <div class="col-lg-6">
+                <a href="./coca.html" target="_black" style="color:black"><h2>CoCA</h2></a>
+                <p> 
+                    <a href="./coca.html" target="_black"><strong>Co</strong>mmon <strong>C</strong>ategory <strong>A</strong>ggregation dataset</a> is 
+                    a versatile dataset with very fine annotations.
+                    consists of 80 categories with 1295 images, covering everyday indoor and outdoor
+                    scenes.
+                    It is worth noting that these categories are outright staggered with Microsoft COCO.
+                </p>
+                <p> 
+                    In our CoCA dataset,
+                    except for the co-salient object(s),
+                    each image contains at least one extraneous salient object,
+                    which enables the dataset to better evaluate the models’ ability of discovering co-salient object(s)
+                    among multiple foregrounds.
+                </p>
+                <p> 
+                    We provide four levels of annotations: class level, bounding box level, object level, and instance
+                    level.
+                    Different levels of annotations of our dataset corresponds to different tasks,
+                    such as co-localization, few-shot object segmentation, co-saliency detection, and instance
+                    co-segmentation.
+                    
+                </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Team Members -->
+        <h2>Useful Codes/Datasets</h2>
+
+        <div class="row">
+            <div class="col-lg-3 mb-3">
+                <div class="card h-100 text-center">
+                    <a href="./coca.html" target="_black"><img class="card-img-top" src="./datasets/CoCA/CoCA_logo.png" height="150" alt=""></a>
+                    <div class="card-body">
+                        <a href="./coca.html" target="_black" style="color:black"><h4 class="card-title">CoCA</h4></a>
+                        <h6 class="card-subtitle mb-2 text-muted">Dataset</h6>
+                        <p class="card-text">
+                            CoCA is a versatile dataset with four-level fine annotations. 
+                            It is a good choice to evaluate the methods of co-saliency detection, co-salient instance detection, etc. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <div class="card h-100 text-center">
+                    <a href="http://dpfan.net/d3netbenchmark/" target="_black"><img class="card-img-top" src="./datasets/SIP_logo.png" height="150" alt=""></a>
+                    <div class="card-body">
+                        <a href="http://dpfan.net/d3netbenchmark/" target="_black" style="color:black"><h4 class="card-title">SIP</h4></a>
+                        <h6 class="card-subtitle mb-2 text-muted">Dataset</h6>
+                        <p class="card-text">
+                            SIP is a large-scale RGB-D salient person dataset, 
+                            consisting of 1K high-resolution images that cover various viewpoints, poses, occlusion, illumination, and background.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <div class="card h-100 text-center">
+                    <a href="https://github.com/zzhanghub/eval-co-sod" target="_black"><img class="card-img-top" src="./datasets/eval_co-sod.png" height="150" alt=""></a>
+                    <div class="card-body">
+                        <a href="https://github.com/zzhanghub/eval-co-sod" target="_black" style="color:black"><h4 class="card-title">Eval Co-SOD</h4></a>
+                        <h6 class="card-subtitle mb-2 text-muted">Code</h6>
+                        <p class="card-text">
+                            Eval Co-SOD is a GPU-accelerated evaluation tool (based on PyTorch) for co-saliency detection.
+                            It can automatically evaluate 8 metrics and draw 4 types of curves.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <div class="card h-100 text-center">
+                    <a href="https://github.com/zzhanghub/crawler_pixabay" target="_black"><img class="card-img-top" src="./datasets/crawler_pixabay.png" height="150" alt=""></a>
+                    <div class="card-body">
+                        <a href="https://github.com/zzhanghub/crawler_pixabay" target="_black" style="color:black"><h4 class="card-title">Crawler Pixabay</h4></a>
+                        <h6 class="card-subtitle mb-2 text-muted">Code</h6>
+                        <p class="card-text">
+                            Crawler-Pixabay is an easy-to-use crawler. 
+                            Users can specify image category, resolution, etc. 
+                            The crawler will crawl the image and the corresponding license from <a href="https://pixabay.com/" target="_black">Pixabay</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 bg-dark vspace-top">
+        <div class="container">
+            <a href="http://www.beian.miit.gov.cn/" target="_blank">
+                <p class="m-0 text-center text-white">苏ICP备16068582号</p>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+     crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+     crossorigin="anonymous"></script>
+</body>
+
+</html>

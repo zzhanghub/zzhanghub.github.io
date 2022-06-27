@@ -1,0 +1,6 @@
+@article{lin2022interactive,
+  title={Interactive Style Transfer: All is Your Palette},
+  author={Lin, Zheng and Zhang, Zhao and Zhang, Kang-Rui and Ren, Bo and Cheng, Ming-Ming},
+  journal={arXiv preprint arXiv:2203.13470},
+  year={2022}
+}

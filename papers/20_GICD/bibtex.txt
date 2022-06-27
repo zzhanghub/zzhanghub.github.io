@@ -1,0 +1,6 @@
+@InProceedings{zhang2020gicd,
+	title={Gradient-Induced Co-Saliency Detection},
+	author={Zhang, Zhao and Jin, Wenda and Xu, Jun and Cheng, Ming-Ming},
+	booktitle={European Conference on Computer Vision (ECCV)},
+	year={2020}
+}

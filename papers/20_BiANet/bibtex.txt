@@ -1,0 +1,9 @@
+@article{zhang2020bianet,
+  title={Bilateral attention network for rgb-d salient object detection},
+  author={Zhang, Zhao and Lin, Zheng and Xu, Jun and Jin, Wenda and Lu, Shao-Ping and Fan, Deng-Ping},
+  journal={IEEE Transactions on Image Processing (TIP)},
+  volume={30},
+  pages={1949-1961},
+  doi={10.1109/TIP.2021.3049959},
+  year={2021},
+}

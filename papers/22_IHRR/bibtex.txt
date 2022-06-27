@@ -1,0 +1,8 @@
+@misc{zhu2022image,
+      title={Image Harmonization by Matching Regional References}, 
+      author={Ziyue Zhu and Zhao Zhang and Zheng Lin and Ruiqi Wu and Zhi Chai and Chun-Le Guo},
+      year={2022},
+      eprint={2204.04715},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}

@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Zhao Zhang</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/default.min.css">
+
+    <style>
+        .vspace-top-left {
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+
+        .vspace-top {
+            margin-top: 30px;
+        }
+
+        .vspace-top-large {
+            margin-top: 50px;
+        }
+
+        .paper-authors {
+            font-style: italic;
+
+        }
+
+        .paper-pub {
+            font-weight: bold;
+            color: gray;
+            font-style: italic
+        }
+
+        .vspace-top-lite {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./publications.html">Publications
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="./data.html">Codes/Datasets
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Useful links
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container">
+        <!-- Page Heading/Breadcrumbs -->
+        <h1 class="mt-4 mb-3">CoCA Dataset
+            <!-- <small>Codes/Datasets</small> -->
+        </h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="data.html">Codes/Datasets</a>
+            </li>
+            <li class="breadcrumb-item active">CoCA</li>
+        </ol>
+
+        <!-- Intro Content -->
+    </section>
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>📦 Common Category Aggregation (CoCA) dataset</h4>
+                <p style="text-align:justify; text-justify:inter-ideograph">
+                    CoCA dataset consists of 80 categories with 1295 images, covering everyday indoor and outdoor
+                    scenes.
+                    It is worth noting that these categories are outright staggered with Microsoft COCO.
+                    In our CoCA dataset,
+                    except for the co-salient object(s),
+                    each image contains at least one extraneous salient object,
+                    which enables the dataset to better evaluate the models’ ability of discovering co-salient object(s)
+                    among multiple foregrounds.
+                    We provide four levels of annotations: class level, bounding box level, object level, and instance
+                    level.
+                    Different levels of annotations of our dataset corresponds to different tasks,
+                    such as co-localization, few-shot object segmentation, co-saliency detection, and instance
+                    co-segmentation.
+                </p>
+                <img src="./datasets/CoCA/CoCA_class.svg" class="img-responsive img-thumbnail" alt="Cinque Terre">
+                <img src="./datasets/CoCA/sample_show.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre">
+            </div>
+        </div>
+
+        <div class="row vspace-top-large">
+            <div class="col-md-12">
+                <h4>⏬ Download</h4>
+            </div>
+        </div>
+        <p style="text-align:justify; text-justify:inter-ideograph">
+            Download our CoCA dataset at
+            <a href="https://pan.baidu.com/s/1tEgkrdaO6HUEzditrcmsJA" target="_blank"><img src="./img/page_img/baidu_pan.jpeg"
+                    height="22" width="22" />Baidu Pan (iqf3)</a>,
+            and <a href="https://drive.google.com/file/d/1ImAJmqeOdBSvWUh5InLdrw7dEUHdnb1w/view?usp=sharing" target="_blank"><img src="./img/page_img/google_drive.jpeg" height="18" width="18" />Google Drive</a>.
+            Our dataset is freely available for research, but not for commercial use.
+        </p>
+    </section>
+
+
+
+
+    <section class="container vspace-top">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>🗂 Co-Saliency Maps</h4>
+
+                <p style="text-align:justify; text-justify:inter-ideograph">
+                    We are collecting perdicted maps to facilitate follow-up research.
+                    These methods provide predictions on <a href='#'>CoCA</a>, <a href='http://dpfan.net/CoSOD3K/'
+                        target="_blank">CoSOD3k</a>, and <a href='' target="http://dpfan.net/CoSOD3K/">CoSal2015</a>.
+                    We encourage researchers to add your method to this list.
+                    You just need to send your paper link, publisher, method abbreviation, and predicted probability
+                    maps on the three datatsets to my email.</p>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Publisher</th>
+                                <th>Methods</th>
+                                <th>Baidu Pan</th>
+                                <th>Google Drive</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2013</td>
+                                <td>TIP</td>
+                                <td><a href='https://github.com/HzFu/Cosaliency_tip2013' target="_blank">CBCD</a></td>
+                                <td><a href='https://pan.baidu.com/s/1k20VpbiMM85eL5exEL_bdA' target="_blank">Key:
+                                        158e</a></td>
+                                <td><a href='https://drive.google.com/drive/folders/1bUvtBOFe84DurMHRJWsnD7zyCMHad5iE?usp=sharing'
+                                        target="_blank">Google drive link</a></td>
+                            </tr>
+                            <!-- <tr> -->
+                            <!-- <td>2017</td>
+                    <td>IJCAI</td>
+                    <td><a href='https://www.ijcai.org/Proceedings/2017/0424.pdf' target="_blank">GW</a></td>
+                    <td><a href='https://pan.baidu.com/s/1xSeFpkc0yRs0MDHIaJwUjA' target="_blank">Key: 98wu</a></td>
+                    <td><a href='https://drive.google.com/drive/folders/1nYGvwNwgO1z_huFRr6T3k-5noDrwypOd?usp=sharing' target="_blank">Google drive link</a></td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>IJCAI</td>
+                    <td><a href='https://www.ijcai.org/Proceedings/2019/0115.pdf' target="_blank">RCAN</a></td>
+                    <td><a href='https://pan.baidu.com/s/14x8o0KMzv4bvJz3arHxmjw' target="_blank">Key: uaii</a></td>
+                    <td><a href='https://drive.google.com/drive/folders/1dlru0-ff_5vpliXvbDwfQzkb-ldwvBqe?usp=sharing' target="_blank">Google drive link</a></td>
+                </tr> -->
+                            <tr>
+                                <td>2019</td>
+                                <td>CVPR</td>
+                                <td><a href='https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Co-Saliency_Detection_via_Mask-Guided_Fully_Convolutional_Networks_With_Multi-Scale_Label_CVPR_2019_paper.html'
+                                        target="_blank">CSMG</a></td>
+                                <td><a href='https://pan.baidu.com/s/1xC1w5Rwg5-OjzuEqbsjM0A' target="_blank">Key:
+                                        42rj</a></td>
+                                <td><a href='https://drive.google.com/drive/folders/15cQvgs6Gp0qRINpSyo_1VcVxh3t4onaq?usp=sharing'
+                                        target="_blank">Google drive link</a></td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>CVPR</td>
+                                <td><a href='https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Adaptive_Graph_Convolutional_Network_With_Attention_Graph_Clustering_for_Co-Saliency_CVPR_2020_paper.html'
+                                        target="_blank">GCAGC</a></td>
+                                <td><a href='https://pan.baidu.com/s/1xFPn2PiWT3wgR6OEHhlczg' target="_blank">Key:
+                                        ij29</a></td>
+                                <td><a href='https://drive.google.com/drive/folders/1EOnukW5iRbTe3liblrl0IGavzI8mXJz5?usp=sharing'
+                                        target="_blank">Google drive link</a></td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>ECCV</td>
+                                <td><a href='https://arxiv.org/abs/2004.13364' target="_blank">GICD</a></td>
+                                <td><a href='https://pan.baidu.com/s/1P35BdU8EFJX9JK9tEGTa1Q' target="_blank">Key:
+                                        puji</a></td>
+                                <td><a href='https://drive.google.com/drive/folders/1FDwIn2IS_E23mbcuBbezg-9-pUg92EGY?usp=sharing'
+                                        target="_blank">Google drive link</a></td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>arXiv</td>
+                                <td><a href='http://dpfan.net/CoSOD3K/' target="_blank">CoEG-Net</a></td>
+                                <td><a href='https://pan.baidu.com/s/1-nhy0JJd0XTyptWczqCnlA' target="_blank">Key:7ocj </a></td>
+                                <td><a href='https://drive.google.com/drive/folders/1pzRi2Z1MUQcNAGbWmg3Rr7uaxjSZZTwk?usp=sharing' target="_blank">Google drive link</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row vspace-top">
+            <div class="col-md-12">
+                <h4>📐 Evaluation Tool</h4>
+            </div>
+        </div>
+        <p style="text-align:justify; text-justify:inter-ideograph">
+            We released a GPU-accelerated 
+            <a href="https://github.com/zzhanghub/eval-co-sod" target="_black">evaluation tool</a> 
+            (based on Python & PyTorch) for co-saliency detection task. 
+            It can automatically evaluate 8 metrics and draw 4 types of curves.
+            
+        </p>
+    </section>
+
+
+
+
+    <!-- paper -->
+    <section class="container vspace-top-large">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4>🤖️ Gradient-Induced Co-Saliency Detection (GICD)</h4>
+            </div>
+        </div>
+
+        <div class="row vspace-top p-2 bg-light">
+            <div class="col-md-9">
+                <ul>
+                    <p class="vspace-top-lite">
+                        <span class="paper-title">Gradient-Induced Co-Saliency Detection</span>
+                        <br />
+                        <span class="paper-authors">
+                            <strong class="text-info">Zhao Zhang*</strong>, Wenda Jin*, Jun Xu, Ming-Ming Cheng
+                        </span>
+                        <br />
+                        <span class="paper-pub">ECCV 2020</span> &nbsp
+                        <a href="https://arxiv.org/abs/2004.13364" target="_black">[PDF]</a>
+                        <a href="https://github.com/zzhanghub/gicd" target="_black">[Code]</a>
+                        <a href="https://www.bilibili.com/video/BV1y5411a7Rq/" target="_black">[Short Video]</a>
+                        <a href="https://www.bilibili.com/video/BV1bi4y137c6" target="_black">[Long Video]</a>
+                        <a href="./papers/20_GICD/slides.pdf" target="_black">[Slides]</a>
+                        <a href="./papers/20_GICD/translation.pdf" target="_black">[中译版]</a>
+                        <a href="./papers/20_GICD/bibtex.txt" target="_black">[bib]</a>
+                    </p>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <img src="./papers/20_GICD/keyimg.png" class="img-responsive img-thumbnail" height="60" width="200" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+            <div class="embed-responsive embed-responsive-16by9 vspace-top-large">
+                <iframe
+                    src="https://player.bilibili.com/player.html?aid=456611633&bvid=BV1y5411a7Rq&cid=219407529&page=1"
+                    scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            </div>
+        </div>
+        </div>
+
+        <div class="row vspace-top-large">
+            <div class="col-md-12">
+                <h4>📃 Citation</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            <pre>
+                <code class="html">
+    @InProceedings{zhang2020gicd,
+        title={Gradient-Induced Co-Saliency Detection},
+        author={Zhang, Zhao and Jin, Wenda and Xu, Jun and Cheng, Ming-Ming},
+        booktitle={European Conference on Computer Vision (ECCV)},
+        year={2020}
+    }
+                </code>
+            </pre>
+        </div>
+        </div>
+    </section>
+
+
+
+    <footer class="py-3 bg-dark vspace-top">
+        <div class="container">
+            <a href="http://www.beian.miit.gov.cn/" target="_blank">
+                <p class="m-0 text-center text-white">苏ICP备16068582号</p>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>

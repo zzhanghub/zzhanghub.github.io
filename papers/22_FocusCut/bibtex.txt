@@ -1,0 +1,6 @@
+@InProceedings{lin2022focuscut,
+	title={FocusCut: Diving into a Focus View in Interactive Segmentation},
+	author={Lin, Zheng and Duan, Zheng-Peng and Zhang, Zhao and Guo, Chun-Le and Cheng, Ming-Ming},
+	booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (CVPR)},
+	year={2022}
+}
