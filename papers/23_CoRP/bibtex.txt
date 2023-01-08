@@ -1,0 +1,6 @@
+@ARTICLE{zhu2023corp,
+  author={Zhu, Ziyue and Zhang, Zhao and Lin, Zheng and Sun, Xing and Cheng, Ming-Ming},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}, 
+  title={Co-Salient Object Detection with Co-Representation Purification}, 
+  year={2023},
+  doi={10.1109/TPAMI.2023.3234586}}

@@ -1,0 +1,8 @@
+@inproceedings{wang2022pacnet,
+  title={PAC-Net: Highlight Your Video via History Preference Modeling},
+  author={Wang, Hang and Zhou, Penghao and Zhou, Chong and Zhang, Zhao and Sun, Xing},
+  booktitle={European Conference on Computer Vision},
+  pages={614--631},
+  year={2022},
+  organization={Springer}
+}
