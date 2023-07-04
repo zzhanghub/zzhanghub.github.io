@@ -1,0 +1,6 @@
+@article{chen2023shikra,
+  title={Shikra: Unleashing Multimodal LLM's Referential Dialogue Magic},
+  author={Chen, Keqin and Zhang, Zhao and Zeng, Weili and Zhang, Richong and Zhu, Feng and Zhao, Rui},
+  journal={arXiv preprint arXiv:2306.15195},
+  year={2023}
+}
