@@ -1,0 +1,6 @@
+@inproceedings{xie2023DOD,
+  title={Exposing the Troublemakers in Described Object Detection},
+  author={Xie, Chi and Zhang, Zhao and Wu, Yixuan and Zhu, Feng and Zhao, Rui and Liang, Shuang},
+  booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2023}
+}
