@@ -1,6 +1,6 @@
-@article{tai2023isekai,
+@InProceedings{tai2023isekai,
   title={Link-Context Learning for Multimodal LLMs},
-  author={Tai, Yan and Fan, Weichen and Zhang, Zhao and Zhu, Feng and Zhao, Rui and Liu, Ziwei},
-  journal={arXiv preprint arXiv:2308.07891},
+  author={Tai, Yan and Fan, Weichen and Zhang, Zhao and Liu, Ziwei},
+  journal={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (CVPR)},
   year={2023}
 }
