@@ -1,0 +1,6 @@
+@article{graphist2023graphic,
+  title={Graphic Design with Large Multimodal Model},
+  author={Cheng, Yutao and Zhang, Zhao and Yang, Maoke and Hui, Nie and Li, Chunyuan and Wu, Xinglong and Shao, Jie},
+  journal={arXiv preprint arXiv:2404.14368},
+  year={2024}
+}
