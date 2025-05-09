@@ -1,0 +1,7 @@
+@article{xie2025relationlmm,
+  title={RelationLMM: Large Multimodal Model as Open and Versatile Visual Relationship Generalist},
+  author={Xie, Chi and Liang, Shuang and Li, Jie and Zhang, Zhao and Zhu, Feng and Zhao, Rui and Wei, Yichen},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
+}

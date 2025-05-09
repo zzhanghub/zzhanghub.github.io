@@ -1,0 +1,6 @@
+@article{xie2025layton,
+  title={Layton: Latent Consistency Tokenizer for 1024-pixel Image Reconstruction and Generation by 256 Tokens},
+  author={Xie, Qingsong and Zhang, Zhao and Huang, Zhe and Zhang, Yanhao and Lu, Haonan and Yang, Zhenyu},
+  journal={arXiv preprint arXiv:2503.08377},
+  year={2025}
+}
