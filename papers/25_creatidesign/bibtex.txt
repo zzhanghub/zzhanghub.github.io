@@ -1,0 +1,6 @@
+@article{zhang2025creatidesign,
+  title={CreatiDesign: A Unified Multi-Conditional Diffusion Transformer for Creative Graphic Design},
+  author={Zhang, Hui and Hong, Dexiang and Yang, Maoke and Chen, Yutao and Zhang, Zhao and Shao, Jie and Wu, Xinglong and Wu, Zuxuan and Jiang, Yu-Gang},
+  journal={arXiv preprint arXiv:2505.19114},
+  year={2025}
+}
