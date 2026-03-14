@@ -77,6 +77,10 @@
     border-radius: 8px;
 }
 
+.project-logo-large {
+    height: 44px;
+}
+
 .project-title {
     margin: 0;
     font-weight: 700;
@@ -86,6 +90,27 @@
 .project-description {
     margin-bottom: 12px;
     text-align: justify;
+}
+
+.project-platform {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #6c757d;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.project-platform-logo {
+    height: 20px;
+    width: auto;
+}
+
+.project-platform-logo-dark {
+    background-color: #111;
+    border-radius: 6px;
+    padding: 4px 8px;
+    height: 28px;
 }
 
 .project-copy {
@@ -106,6 +131,13 @@
     height: auto;
     border-radius: 10px;
     background-color: #000;
+}
+
+.project-preview {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
 }
 
 @media (max-width: 1199.98px) {
