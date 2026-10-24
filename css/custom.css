@@ -2,6 +2,15 @@
     margin-top: 30px;
 }
 
+.news-archive summary {
+    cursor: pointer;
+}
+
+.news-archive:not([open]) .news-collapse-label,
+.news-archive[open] .news-expand-label {
+    display: none;
+}
+
 .cardhead-bg {
     background-color: rgb(255, 255, 255);
 }
@@ -12,10 +21,12 @@
     box-shadow: 2px 2px 6px #9C9C9C;
 }
 
-.jumbotron {
-    background-image: url("../img/page_img/liu_duck1.png");
-    background-repeat: no-repeat;
-    background-position: 70% 100%;
+.profile-illustration {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto 0 0;
 }
 
 .vspace-top-left {
@@ -44,6 +55,14 @@
 
 .paper-authors {
     font-style: italic;
+}
+
+.paper-teaser {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .paper-pub {
@@ -148,6 +167,15 @@
 }
 
 @media (max-width: 991.98px) {
+    .profile-art {
+        margin-top: 20px;
+    }
+
+    .profile-illustration {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
     .project-card {
         padding: 18px;
     }

@@ -1,0 +1,7 @@
+@inproceedings{jia2026pixelart,
+  title={{PixelART}: Image-to-Layer Decomposition without Latents or Text-to-Image Pretraining},
+  author={Zelin Jia and Zhao Zhang and Zhicong Tang and Yuhui Yuan and Shixia Liu},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+  year={2026},
+  url={https://openreview.net/forum?id=d0YFvkRclJ}
+}

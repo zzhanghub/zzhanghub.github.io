@@ -1,0 +1,7 @@
+@inproceedings{zhu2026detect,
+  title={Detect Anything in Graphic Design: Element-Level Rewards for Autoregressive Detection},
+  author={Jiangning Zhu and Bowen Li and Shenyu Qiao and Yima Gu and Zhao Zhang and Yuhui Yuan and Shixia Liu},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+  year={2026},
+  url={https://openreview.net/forum?id=hwvqsWfZFI}
+}
