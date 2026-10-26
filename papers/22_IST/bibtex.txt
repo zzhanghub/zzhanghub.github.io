@@ -1,6 +1,11 @@
-@article{lin2022interactive,
-  title={Interactive Style Transfer: All is Your Palette},
+@article{lin2026user,
+  title={User-oriented interactive style transfer},
   author={Lin, Zheng and Zhang, Zhao and Zhang, Kang-Rui and Ren, Bo and Cheng, Ming-Ming},
-  journal={arXiv preprint arXiv:2203.13470},
-  year={2022}
+  journal={Computational Visual Media},
+  volume={12},
+  number={5},
+  pages={1441--1457},
+  year={2026},
+  doi={10.26599/CVM.2026.9450481},
+  url={https://www.sciopen.com/article/10.26599/CVM.2026.9450481}
 }

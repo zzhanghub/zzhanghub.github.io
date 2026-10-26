@@ -1,6 +1,11 @@
-@article{graphist2023graphic,
+@inproceedings{cheng2025graphic,
   title={Graphic Design with Large Multimodal Model},
-  author={Cheng, Yutao and Zhang, Zhao and Yang, Maoke and Hui, Nie and Li, Chunyuan and Wu, Xinglong and Shao, Jie},
-  journal={arXiv preprint arXiv:2404.14368},
-  year={2024}
+  author={Cheng, Yutao and Zhang, Zhao and Yang, Maoke and Nie, Hui and Li, Chunyuan and Wu, Xinglong and Shao, Jie},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={3},
+  pages={2473--2481},
+  year={2025},
+  doi={10.1609/aaai.v39i3.32249},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/32249}
 }

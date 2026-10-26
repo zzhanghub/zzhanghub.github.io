@@ -2,14 +2,58 @@
 <html lang="en">
 
 <head>
-    <title>Zhao Zhang - Codes/Datasets</title>
+    <title>Code and Datasets | Zhao (Joey) Zhang</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/custom.css">
+
+    <!-- Search and sharing metadata; keep descriptions consistent with the visible page. -->
+    <meta name="description" content="Research code and datasets curated by Zhao (Joey) Zhang, including CoCA, co-saliency evaluation tools, and related computer vision resources.">
+    <meta name="author" content="Zhao Zhang">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://zhaozhang.net/data.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zhao (Joey) Zhang">
+    <meta property="og:title" content="Code and Datasets | Zhao (Joey) Zhang">
+    <meta property="og:description" content="Research code and datasets curated by Zhao (Joey) Zhang, including CoCA, co-saliency evaluation tools, and related computer vision resources.">
+    <meta property="og:url" content="https://zhaozhang.net/data.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://zhaozhang.net/img/page_img/liu_duck1.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="304">
+    <meta property="og:image:height" content="287">
+    <meta property="og:image:alt" content="Duck with a camera, the personal illustration used on Zhao Zhang’s homepage">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Code and Datasets | Zhao (Joey) Zhang">
+    <meta name="twitter:description" content="Research code and datasets curated by Zhao (Joey) Zhang, including CoCA, co-saliency evaluation tools, and related computer vision resources.">
+    <meta name="twitter:image" content="https://zhaozhang.net/img/page_img/liu_duck1.png">
+    <meta name="twitter:image:alt" content="Duck with a camera, the personal illustration used on Zhao Zhang’s homepage">
+    <script type="application/ld+json" id="page-structured-data">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://zhaozhang.net/data.html#webpage",
+      "url": "https://zhaozhang.net/data.html",
+      "name": "Code and Datasets | Zhao (Joey) Zhang",
+      "description": "Research code and datasets curated by Zhao (Joey) Zhang, including CoCA, co-saliency evaluation tools, and related computer vision resources.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://zhaozhang.net/#website"
+      },
+      "about": {
+        "@id": "https://zhaozhang.net/#person"
+      }
+    }
+  ]
+}
+    </script>
 </head>
 
 <body>
@@ -25,23 +69,22 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="./publications.html">Publications
-                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link active" href="./data.html">Codes/Datasets
-                            <span class="sr-only">(current)</span>
+                        <a class="nav-link active" href="./data.html" aria-current="page">Codes/Datasets
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./data.html#useful-resources">Useful links
-                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <main id="main-content">
 
 
     <section class="container">
@@ -54,7 +97,7 @@
             <li class="breadcrumb-item">
                 <a href="index.html">Home</a>
             </li>
-            <li class="breadcrumb-item active">Codes/Datasets</li>
+            <li class="breadcrumb-item active" aria-current="page">Codes/Datasets</li>
         </ol>
 
         <!-- Intro Content -->
@@ -64,31 +107,31 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-lg-6">
-                <a href="./coca.html" target="_blank"><img loading="lazy" class="img-fluid rounded mb-4" src="./datasets/CoCA/CoCA_show.png" alt=""></a>
+                <a href="./coca.html" target="_blank"><img loading="lazy" class="img-fluid rounded mb-4" src="./datasets/CoCA/CoCA_show.png" alt="CoCA dataset examples and annotations"></a>
             </div>
             <div class="col-lg-6">
                 <a href="./coca.html" target="_blank" style="color:black"><h2>CoCA</h2></a>
-                <p> 
+                <p>
                     <a href="./coca.html" target="_blank"><strong>Co</strong>mmon <strong>C</strong>ategory <strong>A</strong>ggregation dataset</a> is
                     a versatile dataset with very fine annotations.
-                    consists of 80 categories with 1295 images, covering everyday indoor and outdoor
+                    It consists of 80 categories with 1295 images, covering everyday indoor and outdoor
                     scenes.
                     It is worth noting that these categories are outright staggered with Microsoft COCO.
                 </p>
-                <p> 
+                <p>
                     In our CoCA dataset,
                     except for the co-salient object(s),
                     each image contains at least one extraneous salient object,
                     which enables the dataset to better evaluate the models’ ability of discovering co-salient object(s)
                     among multiple foregrounds.
                 </p>
-                <p> 
+                <p>
                     We provide four levels of annotations: class level, bounding box level, object level, and instance
                     level.
-                    Different levels of annotations of our dataset corresponds to different tasks,
+                    Different levels of annotations of our dataset correspond to different tasks,
                     such as co-localization, few-shot object segmentation, co-saliency detection, and instance
                     co-segmentation.
-                    
+
                 </p>
             </div>
         </div>
@@ -100,25 +143,25 @@
         <div class="row">
             <div class="col-lg-3 mb-3">
                 <div class="card h-100 text-center">
-                    <a href="./coca.html" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/CoCA/CoCA_logo.png" height="150" alt=""></a>
+                    <a href="./coca.html" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/CoCA/CoCA_logo.png" height="150" alt="CoCA dataset"></a>
                     <div class="card-body">
-                        <a href="./coca.html" target="_blank" style="color:black"><h4 class="card-title">CoCA</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">Dataset</h6>
+                        <a href="./coca.html" target="_blank" style="color:black"><h3 class="card-title h4">CoCA</h3></a>
+                        <p class="card-subtitle h6 mb-2 text-muted">Dataset</p>
                         <p class="card-text">
-                            CoCA is a versatile dataset with four-level fine annotations. 
-                            It is a good choice to evaluate the methods of co-saliency detection, co-salient instance detection, etc. 
+                            CoCA is a versatile dataset with four-level fine annotations.
+                            It is a good choice to evaluate the methods of co-saliency detection, co-salient instance detection, etc.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 mb-3">
                 <div class="card h-100 text-center">
-                    <a href="http://dpfan.net/d3netbenchmark/" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/SIP_logo.png" height="150" alt=""></a>
+                    <a href="http://dpfan.net/d3netbenchmark/" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/SIP_logo.png" height="150" alt="SIP RGB-D salient person dataset"></a>
                     <div class="card-body">
-                        <a href="http://dpfan.net/d3netbenchmark/" target="_blank" style="color:black"><h4 class="card-title">SIP</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">Dataset</h6>
+                        <a href="http://dpfan.net/d3netbenchmark/" target="_blank" style="color:black"><h3 class="card-title h4">SIP</h3></a>
+                        <p class="card-subtitle h6 mb-2 text-muted">Dataset</p>
                         <p class="card-text">
-                            SIP is a large-scale RGB-D salient person dataset, 
+                            SIP is a large-scale RGB-D salient person dataset,
                             consisting of 1K high-resolution images that cover various viewpoints, poses, occlusion, illumination, and background.
                         </p>
                     </div>
@@ -126,10 +169,10 @@
             </div>
             <div class="col-lg-3 mb-3">
                 <div class="card h-100 text-center">
-                    <a href="https://github.com/zzhanghub/eval-co-sod" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/eval_co-sod.png" height="150" alt=""></a>
+                    <a href="https://github.com/zzhanghub/eval-co-sod" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/eval_co-sod.png" height="150" alt="Eval Co-SOD evaluation tool"></a>
                     <div class="card-body">
-                        <a href="https://github.com/zzhanghub/eval-co-sod" target="_blank" style="color:black"><h4 class="card-title">Eval Co-SOD</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">Code</h6>
+                        <a href="https://github.com/zzhanghub/eval-co-sod" target="_blank" style="color:black"><h3 class="card-title h4">Eval Co-SOD</h3></a>
+                        <p class="card-subtitle h6 mb-2 text-muted">Code</p>
                         <p class="card-text">
                             Eval Co-SOD is a GPU-accelerated evaluation tool (based on PyTorch) for co-saliency detection.
                             It can automatically evaluate 8 metrics and draw 4 types of curves.
@@ -139,13 +182,13 @@
             </div>
             <div class="col-lg-3 mb-3">
                 <div class="card h-100 text-center">
-                    <a href="https://github.com/zzhanghub/crawler_pixabay" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/crawler_pixabay.png" height="150" alt=""></a>
+                    <a href="https://github.com/zzhanghub/crawler_pixabay" target="_blank"><img loading="lazy" class="card-img-top" src="./datasets/crawler_pixabay.png" height="150" alt="Crawler Pixabay image collection tool"></a>
                     <div class="card-body">
-                        <a href="https://github.com/zzhanghub/crawler_pixabay" target="_blank" style="color:black"><h4 class="card-title">Crawler Pixabay</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">Code</h6>
+                        <a href="https://github.com/zzhanghub/crawler_pixabay" target="_blank" style="color:black"><h3 class="card-title h4">Crawler Pixabay</h3></a>
+                        <p class="card-subtitle h6 mb-2 text-muted">Code</p>
                         <p class="card-text">
-                            Crawler-Pixabay is an easy-to-use crawler. 
-                            Users can specify image category, resolution, etc. 
+                            Crawler-Pixabay is an easy-to-use crawler.
+                            Users can specify image category, resolution, etc.
                             The crawler will crawl the image and the corresponding license from <a href="https://pixabay.com/" target="_blank">Pixabay</a>.
                         </p>
                     </div>
@@ -154,9 +197,11 @@
         </div>
     </section>
 
+    </main>
+
     <footer class="py-3 bg-dark vspace-top">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Zhao Zhang 2025</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Zhao Zhang 2026</p>
             <a href="http://www.beian.miit.gov.cn/" target="_blank">
                 <p class="m-0 text-center text-white">苏ICP备16068582号</p>
             </a>

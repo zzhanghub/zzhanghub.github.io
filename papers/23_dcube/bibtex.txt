@@ -1,5 +1,5 @@
 @inproceedings{xie2023DOD,
-  title={Exposing the Troublemakers in Described Object Detection},
+  title={Described Object Detection: Liberating Object Detection with Flexible Expressions},
   author={Xie, Chi and Zhang, Zhao and Wu, Yixuan and Zhu, Feng and Zhao, Rui and Liang, Shuang},
   booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
   year={2023}

@@ -1,0 +1,5 @@
+# Public pages are available to search engines and AI search crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://zhaozhang.net/sitemap.xml

@@ -1,6 +1,8 @@
-@article{zhang2025creatidesign,
+@inproceedings{zhang2026creatidesign,
   title={CreatiDesign: A Unified Multi-Conditional Diffusion Transformer for Creative Graphic Design},
-  author={Zhang, Hui and Hong, Dexiang and Yang, Maoke and Chen, Yutao and Zhang, Zhao and Shao, Jie and Wu, Xinglong and Wu, Zuxuan and Jiang, Yu-Gang},
-  journal={arXiv preprint arXiv:2505.19114},
-  year={2025}
+  author={Zhang, Hui and Hong, Dexiang and Yang, Maoke and Cheng, Yutao and Zhang, Zhao and Chen, Weidong and Shao, Jie and Wu, Xinglong and Wu, Zuxuan and Jiang, Yu-Gang},
+  booktitle={International Conference on Learning Representations},
+  pages={111201--111214},
+  year={2026},
+  url={https://proceedings.iclr.cc/paper_files/paper/2026/hash/b46b78c353f672d83997d4cce5f1b0fb-Abstract-Conference.html}
 }
